@@ -1253,7 +1253,7 @@ def visualize_boxes_and_labels_on_image_array(
           keypoint_edge_color=color,
           keypoint_edge_width=line_thickness // 2)
 
-  return image
+  return image, display_str
 
 
 def add_cdf_image_summary(values, name):
